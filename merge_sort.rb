@@ -20,3 +20,4 @@ def merge_sort(arr)
 end
 
 p merge_sort([5, 4, 3, 2, 1])
+p merge_sort(['Pineapple', 'Orange', 'Peach', 'Watermelon', 'Apple'])
