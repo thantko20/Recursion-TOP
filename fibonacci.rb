@@ -11,3 +11,10 @@ def fibs(n)
 end
 
 p fibs(5)
+
+def fibs_rec(n)
+  #TODO
+  n < 2 ? n : fibs(n-1) + fibs (n+1)
+end
+
+fibs_rec(5)
